@@ -1,4 +1,4 @@
-# <img src="drawing.jpg" alt="drawing" width="200"/> macOCR
+# <img src="ocr.png" alt="icon" width="200"/> macOCR
 *OCR, but on a Mac!*
 ## About
 This app is a wrapper for the [https://github.com/ocrmypdf/OCRmyPDF](OCRmyPDF) command line interface, which itself is built on the Tesseract engine for optical character recognition (OCR) of PDFs built from un-processed images.  It is designed in particular to make it easy and simple for users not habituated to the command line to OCR documents on a Mac.
