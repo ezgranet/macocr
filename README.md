@@ -14,3 +14,4 @@ Simply drag a PDF in need of a good OCR and put it on the app! Then, select the 
 For the sake of simplicity (I wanted this usage to be as incredibly easy as possible), I have dictated that this app will, first, force OCR on all pages, including those with existing text; this is because skipping such pages would miss the point for use cases involving poorly OCRed texts needing a redo, and frankly, adding addittional options would be more coding than I was prepared to do.  It will also always output documents conforming to the PDF/A standard (this is good, mostly!).
 ## Licence
 This is free and open-source software, licensed under the MIT licence.  Users may use it as they please.
+[The icon of the project and the app is deisgned by Flaticon User Freepik and licensed under the Flaticon licence.](https://www.flaticon.com/free-icon/ocr_5115215)
