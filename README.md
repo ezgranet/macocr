@@ -9,7 +9,9 @@ This app is a wrapper for the [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) c
 This application requires both OCRMyPDF and Tesseract. Homebrew users can install these simply by using the following code:
 > brew install ocrmypdf; brew install tesseract
 Users will have to determine which languages are needed for there work; to install all languages, the code below works:
+
 > brew install tesseract-lang
+
 For users who are uncomfortable or unhabitauted to the command line, I have bundled a small application called 'Dependency Installer', which will install (in the event these are not already installed): Homebrew, Tesseract, OCRmyPDF, and Tesseract-Lang.  The final installation will take up a non-trivial large amount of space (~500mb), so please be aware of this when choosing to use the automated installation!  
 ## Usage
 Simply drag a PDF in need of a good OCR and put it on the app! Then, select the language to be used, by typing the Tesseract language codes (eng, fre, deu, etc); [a complete list of the language codes is available at this link](https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html).  The default code is set to 'eng,', so English-only users can simply press 'return'. Then, simply wait as the PDF is outputted.
