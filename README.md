@@ -9,7 +9,7 @@ This app is a wrapper for the [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) c
 This application requires both OCRMyPDF and Tesseract. Homebrew users can install these simply by using the following code:
 > brew install ocrmypdf; brew install tesseract
 > 
-Users will have to determine which languages are needed for there work; to install all languages, the code below works:
+Users will have to determine which languages are needed for their work; to install all languages, the code below works:
 
 > brew install tesseract-lang
 
