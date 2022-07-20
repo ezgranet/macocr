@@ -30,7 +30,7 @@ if [ $# == 0 ] ; then
     echo "Drag a PDF to the window or click File -> Open.  Remember to install the dependencies first!"
     exit 1;
 fi
-lang=$(displayfortext "What language(s) are these in? Enter the three letter codes, separated by the + sign. For example, a document in  English and French would be eng+fre ; these codes can be found online at https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html" "eng")
+lang=$(displayfortext "What language(s) are these in? Enter the three letter codes, separated by the + sign. For example, a document in  English and French would be eng+fra ; these codes can be found online at https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html" "eng")
 for path in "$@"
 do
 ocrmypdf -l "$lang" "$path" "$path"-ocr.pdf --force-ocr; 
